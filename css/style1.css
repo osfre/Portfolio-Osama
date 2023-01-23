@@ -430,7 +430,7 @@ header .container nav ul li a:hover{
 }
 .hero-name h1{
   letter-spacing: 2px;
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 .hero-name h1 span{
   animation-timing-function: linear;
@@ -519,6 +519,7 @@ header .container nav ul li a:hover{
 @media (max-width:768px) {
   .hero .go-down{
     bottom: -50px;
+    left: 47%;
   }
 }
 .hero .go-down  {
