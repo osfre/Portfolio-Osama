@@ -10,7 +10,6 @@
       With Hight Performance To Use That Built With Best Practices.">
   <title>Osama Freed Abu Watfa</title>
   <link rel="stylesheet" href="css/style1.css">
-  <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,7 +82,7 @@
                 <span>O</span><span>s</span><span>a</span><span>m</span><span>a</span>
                 <span>f</span><span>r</span><span>e</span><span>e</span><span>d</span>.
               </h1>
-              <h2 class="sh sh-r" style="transition-delay:200ms">I build things for the web.</h2>
+              <h2 class="sh sh-r typed" style="transition-delay:200ms"></h2>
               <p class="descreptive sh sh-r" style="transition-delay:300ms">
                 I’m a front end web developer focused on building the Frontend of Websites and Web Applications that
                 leads to the success of the overall product and business.
@@ -356,6 +355,25 @@
   <script src="js/script.js"></script>
   <!-- font awsome js -->
   <script src="js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    if (document.querySelector(".typed") != null) {
+  let typed = new Typed(".typed", {
+    strings: [
+      "I build things for the web.",
+      "UI Developer",
+      "Freelancer",
+      " Front-End Developer",
+      "Content Creator",
+    ],
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 2000,
+    loop: true,
+  });
+}
+
+  </script>
 </body>
 
 </html>

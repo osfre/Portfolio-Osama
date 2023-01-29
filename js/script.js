@@ -109,7 +109,6 @@ const observer = new IntersectionObserver((e)=>{
 
 hiddenElements.forEach((el)=>{
   if(!el.classList.contains("one-sh")){
-    console.log("red")
     observer.observe(el);
   }
 })

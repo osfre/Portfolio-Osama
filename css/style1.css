@@ -895,3 +895,13 @@ footer p{
   color: var(--green-blue);
 }
 /* End footeer */
+.typed-cursor {
+  color: #5FF1D0;
+  font-size: 35px;
+}
+h2.sh.sh-r.typed.one-sh.show-sh {
+  display: inline-block;
+}
+h1.bouncing-letters.sh.sh-r.one-sh.show-sh {
+  margin-bottom: 0;
+}
